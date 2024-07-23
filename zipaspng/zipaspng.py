@@ -112,10 +112,12 @@ def disguise_file(zip_file: str, png_file: str, out_file: str):
        # 偽装結果を出力
        out.write(out_buff)
 
- 
-if __name__ == "__main__":
+def main():
     import sys
     argc = len(sys.argv)
     if argc != 4:
         raise RuntimeError("usage: zipaspng ZIP-FILE PNG-FILE OUT-FILE")
     disguise_file(sys.argv[1], sys.argv[2], sys.argv[3])
+
+if __name__ == "__main__":
+    main()
