@@ -6,4 +6,7 @@ setup(
     description="disguise zip to png",
     packages=find_packages(exclude=("tests", "docs")),
     test_suite="tests",
+    entry_points = {
+        "console_scripts": ["zipaspng=zipaspng.zipaspng:main"],
+    },
 )
