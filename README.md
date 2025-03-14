@@ -1,4 +1,4 @@
-# ZipAsPng.py [![Build Status](https://travis-ci.org/yoshi389111/zip-as-png-py.svg?branch=master)](https://travis-ci.org/yoshi389111/zip-as-png-py)
+# ZipAsPng.py
 
 disguise zip to png
 
